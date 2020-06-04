@@ -1,6 +1,6 @@
 import React from 'react'
 import Works from 'data/Works.js'
-import ListCard from './ListCard.js'
+import ListCard from 'components/ListCard'
 
 function PortfolioItems() {
   const styles = {

@@ -24,12 +24,6 @@ export default function App() {
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/work" component={WorkPage} />
-        <Route exact path="/work/:slug" component={ShowPage} />
-        <Route exact path="/tags/:slug" component={TagPage} />
-        <Route exact path="/styleguide" component={StyleguidePage} />
-        <Route exact path="/styleguide/:slug" component={StyleguidePage} />
-        <Route exact path="/blog" component={BlogPage} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

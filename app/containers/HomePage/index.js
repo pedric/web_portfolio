@@ -10,7 +10,7 @@ import { Helmet } from 'react-helmet';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import HomePageBody from 'components/HomePageBody'
-import PortfolioItems from 'components/PortfolioItems.js'
+import PortfolioItems from 'components/PortfolioItems'
 import Logo from 'images/logo/logo_stacked.png'
 
 class HomePage extends React.Component {

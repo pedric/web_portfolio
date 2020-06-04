@@ -1,5 +1,5 @@
 import React from 'react'
-import CirclePortrait from './CirclePortrait'
+import CirclePortrait from 'components/CirclePortrait'
 import Works from 'data/Works.js'
 import CategoryLink from 'components/CategoryLink'
 
